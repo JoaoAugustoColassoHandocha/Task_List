@@ -62,7 +62,8 @@ def op_task(op):
             os.system('cls')
             main(op = 0)
             break
-
+        
+        # Option to delete a task from the list.
         elif op == '3':
             
             print('\nSua lista de tarefas: ')
