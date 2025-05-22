@@ -14,7 +14,6 @@ def main(op = 0):
     op = input('Digite o número da opção desejada: ')
     
     os.system('cls')
-    
         
     if op.isdigit == 1 or op.isdigit == 2 or op.isdigit == 3 or op.isdigit == 4:
     
