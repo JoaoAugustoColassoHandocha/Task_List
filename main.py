@@ -5,27 +5,27 @@ os.system('color 1f')
 def main(op = 0):
 
     print('\n' + 10 * '-' + 'TASK LIST' + 10 * '-')
-    print('1 - Incluir nova task')
-    print('2 - Ver lista de tasks')
-    print('3 - Excluir task salva')
-    print('4 - Sair')
+    print('\n1 - Incluir nova tarefa')
+    print('2 - Ver lista de tarefas')
+    print('3 - Excluir tarefa salva')
+    print('4 - Sair\n')
     print(29 * '-' + '\n')
 
-    op = int(input('Digite o número da opção desejada: '))
+    op = input('Digite o número da opção desejada: ')
     
     os.system('cls')
     
-    if op == '' or op == ' ' or op != 1 and op != 2 and op != 3 and op != 4:
+        
+    if op.isdigit == 1 or op.isdigit == 2 or op.isdigit == 3 or op.isdigit == 4:
+    
+        task(op)
+        
+    elif op == '' or op == ' ' or op.isdigit != 1 or op.isdigit != 2 or op.isdigit != 3 or op.isdigit != 4:
         
         print('\nOpção inválida, digite novamente\n')
         os.system('pause')
         os.system('cls')
         main(op = 0)
-        
-    elif op == 1 or op == 2 or op == 3 or op == 4:
-    
-        task(op)
-        
     else:
         
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
