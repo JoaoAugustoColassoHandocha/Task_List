@@ -2,6 +2,8 @@ import os
 
 os.system('color 1f')
 
+to_do_list = []
+
 def main(op = 0):
 
     print('\n' + 10 * '-' + 'TASK LIST' + 10 * '-')
@@ -15,11 +17,11 @@ def main(op = 0):
     
     os.system('cls')
         
-    if op.isdigit == 1 or op.isdigit == 2 or op.isdigit == 3 or op.isdigit == 4:
+    if op == '1' or op == '2' or op == '3' or op == '4':
     
         task(op)
         
-    elif op == '' or op == ' ' or op.isdigit != 1 or op.isdigit != 2 or op.isdigit != 3 or op.isdigit != 4:
+    elif op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
         
         print('\nOpção inválida, digite novamente\n')
         os.system('pause')
@@ -33,19 +35,17 @@ def main(op = 0):
         os.system('cls')
 
 def task(op):
-
-    to_do_list = []
-
+    
     while True:
         
-        if op == 1:
+        if op == '1':
             
             task = input('\nDigite a tarefa a ser adicionada: ')            
             to_do_list.append(task)
             os.system('cls')
             main(op = 0)
 
-        elif op == 2:
+        elif op == '2':
             
             print('\nSua lista de tarefas: ')
             print(f'\n{to_do_list}\n')
@@ -53,7 +53,7 @@ def task(op):
             os.system('cls')
             main(op = 0)
 
-        elif op == 3:
+        elif op == '3':
             
             print('\nSua lista de tarefas: ')
             print(f'\n{to_do_list}\n')
@@ -61,12 +61,14 @@ def task(op):
             to_do_list.remove(task_to_be_removed)
             main(op = 0)
 
-        elif op == 4:
+        elif op == '4':
 
             print('\nSaindo...\n')
             os.system('pause')
-            os.system('cls')  
+            os.system('cls')
+            os.system('exit')
             break
+        
         
         else:
             
