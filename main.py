@@ -73,7 +73,8 @@ def op_task(op):
             os.system('cls')
             main(op = 0)
             break
-
+        
+        # Option to close the application.
         elif op == '4':
 
             print('\nSaindo...\n')
