@@ -17,7 +17,8 @@ def main(op = 0):
     op = input('Digite o número da opção desejada: ') # Input to choose menu option.
     
     os.system('cls')
-        
+    
+    # If the option passed is correct, access "op_task()".
     if op == '1' or op == '2' or op == '3' or op == '4':
     
         op_task(op)
