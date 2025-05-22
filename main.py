@@ -1,6 +1,6 @@
-import os
+import os # Importing the "os" module for system manipulation, such as "cls", "pause", "color" and "exit"
 
-os.system('color 1f')
+os.system('color 1f') # Changes the background text color to blue with white letters
 
 to_do_list = []
 
@@ -19,7 +19,7 @@ def main(op = 0):
         
     if op == '1' or op == '2' or op == '3' or op == '4':
     
-        task(op)
+        op_task(op)
         
     elif op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
         
@@ -34,7 +34,7 @@ def main(op = 0):
         os.system('pause')
         os.system('cls')
 
-def task(op):
+def op_task(op):
     
     while True:
         
