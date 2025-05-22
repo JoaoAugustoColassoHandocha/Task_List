@@ -82,7 +82,7 @@ def op_task(op):
             os.system('cls')
             break
         
-        
+        # If there is any discrepancy, print the error message, requesting contact with support, and close the system.
         else:
             
             print('\nErro!!! Favor entrar em contato com o suporte!\n')
