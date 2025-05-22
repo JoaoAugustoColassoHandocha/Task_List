@@ -25,6 +25,7 @@ def main(op = 0):
         os.system('pause')
         os.system('cls')
         main(op = 0)
+        
     else:
         
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
