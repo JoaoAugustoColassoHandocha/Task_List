@@ -22,7 +22,8 @@ def main(op = 0):
     if op == '1' or op == '2' or op == '3' or op == '4':
     
         op_task(op)
-        
+    
+    # If the option passed is wrong, print that it is invalid and ask the user to pass the correct option, and return to "main()".
     elif op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
         
         print('\nOpção inválida, digite novamente\n')
