@@ -4,6 +4,7 @@ os.system('color 1f') # Changes the background text color to blue with white let
 
 to_do_list = [] # Storing tasks in list form.
 
+# 
 def main(op = 0):
 
     print('\n' + 10 * '-' + 'TASK LIST' + 10 * '-')
