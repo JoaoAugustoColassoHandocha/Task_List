@@ -41,8 +41,10 @@ def main(op = 0):
 # After the menu option is passed and verified, execute what was requested.
 def op_task(op):
     
+    # Loop being performed until breaking.
     while True:
         
+        # Option to insert task in the list.
         if op == '1':
             
             task = input('\nDigite a tarefa a ser adicionada: ')            
@@ -50,7 +52,8 @@ def op_task(op):
             os.system('cls')
             main(op = 0)
             break
-
+        
+        # Option to print the task list on the screen.
         elif op == '2':
             
             print('\nSua lista de tarefas: ')
