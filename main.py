@@ -31,6 +31,7 @@ def main(op = 0):
         os.system('cls')
         main(op = 0)
         
+    # If there is any discrepancy, print the error message, requesting contact with support, and close the system.  
     else:
         
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
