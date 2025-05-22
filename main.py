@@ -1,8 +1,8 @@
-import os # Importing the "os" module for system manipulation, such as "cls", "pause", "color" and "exit"
+import os # Importing the "os" module for system manipulation, such as "cls", "pause", "color" and "exit".
 
-os.system('color 1f') # Changes the background text color to blue with white letters
+os.system('color 1f') # Changes the background text color to blue with white letters.
 
-to_do_list = []
+to_do_list = [] # Storing tasks in list form.
 
 def main(op = 0):
 
