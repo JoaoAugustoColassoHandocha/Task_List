@@ -38,6 +38,7 @@ def main(op = 0):
         os.system('pause')
         os.system('cls')
 
+# After the menu option is passed and verified, execute what was requested.
 def op_task(op):
     
     while True:
