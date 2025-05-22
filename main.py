@@ -4,12 +4,12 @@ os.system('color 1f')
 
 def main(op = 0):
 
-    print('\n' + 25 * '*' + 'TASK LIST' + )
+    print('\n' + 10 * '-' + 'TASK LIST' + 10 * '-')
     print('1 - Incluir nova task')
     print('2 - Ver lista de tasks')
     print('3 - Excluir task salva')
     print('4 - Sair')
-    print(25 * '*' + '\n')
+    print(29 * '-' + '\n')
 
     op = int(input('Digite o número da opção desejada: '))
     
