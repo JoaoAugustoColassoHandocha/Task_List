@@ -44,6 +44,7 @@ def task(op):
             to_do_list.append(task)
             os.system('cls')
             main(op = 0)
+            break
 
         elif op == '2':
             
@@ -52,6 +53,7 @@ def task(op):
             os.system('pause')
             os.system('cls')
             main(op = 0)
+            break
 
         elif op == '3':
             
@@ -59,14 +61,15 @@ def task(op):
             print(f'\n{to_do_list}\n')
             task_to_be_removed = input('Digite a tarefa a ser removida: ')
             to_do_list.remove(task_to_be_removed)
+            os.system('cls')
             main(op = 0)
+            break
 
         elif op == '4':
 
             print('\nSaindo...\n')
             os.system('pause')
             os.system('cls')
-            os.system('exit')
             break
         
         
@@ -76,5 +79,7 @@ def task(op):
             os.system('pause')
             os.system('cls')
             break
-      
+        
+    os.system('exit')
+       
 main(op = 0)
