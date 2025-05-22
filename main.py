@@ -4,7 +4,7 @@ os.system('color 1f')
 
 def main(op = 0):
 
-    print('\n' + 25 * '*' + )
+    print('\n' + 25 * '*' + 'TASK LIST' + )
     print('1 - Incluir nova task')
     print('2 - Ver lista de tasks')
     print('3 - Excluir task salva')
