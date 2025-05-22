@@ -14,7 +14,7 @@ def main(op = 0):
     print('4 - Sair\n')
     print(29 * '-' + '\n')
 
-    op = input('Digite o número da opção desejada: ')
+    op = input('Digite o número da opção desejada: ') # Input to choose menu option.
     
     os.system('cls')
         
